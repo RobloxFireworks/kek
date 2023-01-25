@@ -119,13 +119,6 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(22, 29, 31)
     },
-    PussInBoots = {
-        SchemeColor = Color3.fromRGB(213, 138, 41),
-        Background = Color3.fromRGB(255,69,0),
-        Header = Color3.fromRGB(251,79,20),
-        TextColor = Color3.fromRGB(0, 0, 0),
-        ElementColor = Color3.fromRGB(255, 142, 0)
-    }
     TestColors = {
         SchemeColor = Color3.fromRGB(255, 255, 255),
         Background = Color3.fromRGB(0, 0, 0),
@@ -133,6 +126,13 @@ local themeStyles = {
         TextColor = Color3.fromRGB(0, 255, 0),
         ElementColor = Color3.fromRGB(0, 0, 255)
     },
+    PussInBoots = {
+        SchemeColor = Color3.fromRGB(213, 138, 41),
+        Background = Color3.fromRGB(255,69,0),
+        Header = Color3.fromRGB(251,79,20),
+        TextColor = Color3.fromRGB(0, 0, 0),
+        ElementColor = Color3.fromRGB(255, 142, 0)
+    }
 }
 local oldTheme = ""
 

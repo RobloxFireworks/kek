@@ -119,14 +119,7 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(22, 29, 31)
     },
-    TestColors = {
-        SchemeColor = Color3.fromRGB(255, 255, 255),
-        Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(255, 0, 0),
-        TextColor = Color3.fromRGB(0, 255, 0),
-        ElementColor = Color3.fromRGB(0, 0, 255)
-    },
-    PussInBoots = {
+    Halloween = {
         SchemeColor = Color3.fromRGB(252, 147, 3),
         Background = Color3.fromRGB(31, 31, 31),
         Header = Color3.fromRGB(25, 25, 25),
@@ -183,10 +176,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Synapse
     elseif themeList == "Serpent" then
         themeList = themeStyles.Serpent
-    elseif themeList == "TestColors" then
-    	themeList = themeStyles.TestColors
-    elseif themeList == "PussInBoots" then
-	themeList = themeStyles.PussInBoots
+    elseif themeList == "Halloween" then
+	themeList = themeStyles.Halloween
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)

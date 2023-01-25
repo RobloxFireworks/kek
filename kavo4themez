@@ -129,7 +129,7 @@ local themeStyles = {
     PussInBoots = {
         SchemeColor = Color3.fromRGB(37, 34, 30),
         Background = Color3.fromRGB(255, 142, 0),
-        Header = Color3.fromRGB(204,85,0),
+        Header = Color3.fromRGB(255, 143, 64),
         TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(204,85,0)
     }
